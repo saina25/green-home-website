@@ -1,0 +1,114 @@
+
+header {
+    background: linear-gradient(to bottom right, #9CCC65, #7CB342); /* Gradient background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+body {
+    margin: 0px;
+    padding-bottom: 100px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative; /* Use relative positioning for the body */
+    background-color: #f3fcf0;
+  }
+
+main {
+    flex: 1;
+  }
+
+#lm-design1{
+    margin: 50px 30px 50px 30px;
+    padding: 8px 20px 8px 20px;
+    background: linear-gradient(to bottom right, #9CCC65, #89c34b); /* Gradient background */
+    border-radius: 25px;
+    color:#f3fcf0;
+    height: 500px;
+  }
+
+#lm-design2{
+    margin: 20px 30px 50px 30px;
+    padding: 8px 20px 8px 20px;
+    background: linear-gradient(to bottom right, #9CCC65, #89c34b); /* Gradient background */
+    border-radius: 25px;
+    color:#f3fcf0;
+    height: 570px;
+  }
+
+  #lm-design3{
+    margin: 20px 30px 50px 30px;
+    padding: 8px 20px 8px 20px;
+    background: linear-gradient(to bottom right, #9CCC65, #89c34b); /* Gradient background */
+    border-radius: 25px;
+    color:#f3fcf0;
+    height: 610px;
+  }
+
+  #lm-design4{
+    margin: 20px 30px 50px 30px;
+    padding: 8px 20px 8px 20px;
+    background: linear-gradient(to bottom right, #9CCC65, #89c34b); /* Gradient background */
+    border-radius: 25px;
+    color:#f3fcf0;
+    height: 200px;
+  }
+
+  #lm-design5{
+    margin: 20px 30px 50px 30px;
+    padding: 8px 20px 8px 20px;
+    background: linear-gradient(to bottom right, #9CCC65, #89c34b); /* Gradient background */
+    border-radius: 25px;
+    color:#f3fcf0;
+    height: 180px;
+  }
+
+  #lm-design6{
+    margin: 20px 30px 50px 30px;
+    padding: 8px 20px 8px 20px;
+    background: linear-gradient(to bottom right, #9CCC65, #89c34b); /* Gradient background */
+    border-radius: 25px;
+    color:#f3fcf0;
+    height: 370px;
+  }
+
+  #lm-design7{
+    margin: 20px 30px 50px 30px;
+    padding: 8px 20px 8px 20px;
+    background: linear-gradient(to bottom right, #9CCC65, #89c34b); /* Gradient background */
+    border-radius: 25px;
+    color:#f3fcf0;
+    height: 570px;
+  }
+
+  #lm-design8{
+    margin: 20px 70px 50px 70px;
+    padding: 8px 20px 8px 20px;
+    background: linear-gradient(to bottom right, #9CCC65, #89c34b); /* Gradient background */
+    border-radius: 25px;
+    color:#f3fcf0;
+    height: 500px;
+  }
+
+  footer {
+    background: linear-gradient(to top left, #9CCC65, #7CB342);
+    color: white;
+    text-align: center;
+    padding-bottom: 2px;
+    padding-top: 8px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+  }
+
+  @media (max-width: 768px) {
+    footer {
+      flex-direction: column;
+    }
+    .footer-sections > div {
+      margin-bottom: 10px;
+    }
+  }
